@@ -1,0 +1,43 @@
+/* Ocupa toda a tela */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 8% auto auto auto 8%;
+  gap: 10px;
+  background-color: #000102;
+  padding: 10px;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.cabeçalho {
+  grid-column: 1 / -1;
+  background-color: #5334a8;
+  border-radius: 5px;
+}
+
+.footer {
+  grid-column: 1 / -1;
+  background-color: #5334a8;
+  border-radius: 5px;
+}
+
+.card-azul {
+  grid-column: span 2;
+  background-color: #979ea0;
+  border-radius: 5px;
+  min-height: 100px;
+}
+
+.cardinferior {
+  background-color: #54595a;
+  border-radius: 5px;
+  min-height: 100px;
+}

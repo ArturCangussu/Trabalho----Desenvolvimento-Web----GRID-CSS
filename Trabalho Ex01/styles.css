@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 1000px;
+    background-color:rgba(197, 193, 187, 0.425);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  .container {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-template-rows: repeat(2, 80px);
+    gap: 8px;
+  }
+  
+  .bloco {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+  }
+  
+
+  .vermelho {
+    background-color: #f06363;
+  }
+  
+  .azul {
+    background-color: #66b2f5;
+  }
+  
+  .verde {
+    background-color: #67f58d;
+  }
+  
+  .amarelo {
+    background-color: #f1ea61;
+  }
+  
